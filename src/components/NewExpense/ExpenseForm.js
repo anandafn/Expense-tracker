@@ -27,6 +27,8 @@ const ExpenseForm = (props) => {
       date: new Date(inputDate),
     };
 
+    console.log(expenseData);
+
     props.onSaveExpense(expenseData);
 
     // Delete the input after submission
